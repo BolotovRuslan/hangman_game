@@ -8,7 +8,10 @@
 > 7 mistakes can be made in total
 ## Launching the game:
 > In the command line, from the folder in which the file `main.rb` is located, enter the command` ruby ​​main.rb`
-> 
+## To add new words to the game:
+```
+Hangman/data/words.txt
+```
 ## Use Russian letters in the game.
 
 ## Example from the game:
