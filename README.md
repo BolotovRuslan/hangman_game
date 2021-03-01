@@ -7,7 +7,10 @@
  If the word is correctly guessed, the player wins. After each mistake, the gallows is drawn.
  7 mistakes can be made in total
 ## Launching the game:
- In the command line, from the folder in which the file `main.rb` is located, enter the command` ruby ​​main.rb`
+ In the command line, from the folder in which the file `main.rb` is located, enter the command
+ ```
+ ruby ​​main.rb
+ ```
 ## To add new words to the game:
 ```
 Hangman/data/words.txt
