@@ -34,4 +34,3 @@ data/words.txt
 У вас осталось ошибок: 5
 Введите следующую букву:
 ```
-Use the Latin alphabet in the game
