@@ -15,8 +15,6 @@
 ```
 data/words.txt
 ```
-## Use Russian letters in the game.
-
 ## Example from the game:
 
 ```
@@ -36,3 +34,4 @@ data/words.txt
 У вас осталось ошибок: 5
 Введите следующую букву:
 ```
+Use the Latin alphabet in the game
