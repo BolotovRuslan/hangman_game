@@ -1,4 +1,4 @@
-# Console game `Hangman`
+# Console game Hangman
 ###### Writing language - Ruby
 ## Game description:
  The computer thinks out a word (from the list in the file) and shows how many letters there are.
