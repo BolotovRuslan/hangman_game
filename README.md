@@ -13,7 +13,7 @@
  ```
 ## To add new words to the game:
 ```
-Hangman/data/words.txt
+data/words.txt
 ```
 ## Use Russian letters in the game.
 
