@@ -7,10 +7,12 @@
  If the word is correctly guessed, the player wins. After each mistake, the gallows is drawn.
  7 mistakes can be made in total
 ## Launching the game:
- In the command line, from the folder in which the file `main.rb` is located, enter the command
+ To run it ,you need to have Ruby installed on your computer.
+
+ Then copy the contents of the repository to your computer and run the following commands:
  ```
  bundle install
- ruby ​​main.rb
+ bundle exec ruby main.rb
  ```
 ## To add new words to the game:
 ```
