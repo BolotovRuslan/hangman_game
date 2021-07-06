@@ -9,6 +9,7 @@
 ## Launching the game:
  In the command line, from the folder in which the file `main.rb` is located, enter the command
  ```
+ bundle install
  ruby ​​main.rb
  ```
 ## To add new words to the game:
