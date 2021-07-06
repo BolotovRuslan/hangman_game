@@ -1,3 +1,5 @@
+require "colorize"
+
 class ConsoleInterface
   FIGURES =
     Dir["#{__dir__}/../data/figures/*.txt"].
@@ -10,17 +12,17 @@ class ConsoleInterface
 
   def print_out
     puts <<~END
-      Слово: #{word_to_show}
-      #{figure}
-      Ошибки (#{@game.errors_made}): #{errors_to_show}
+      Слово: #{word_to_show.colorize(:light_blue)}
+      #{figure.colorize(:yellow)}
+      Ошибки (#{@game.errors_made}): #{errors_to_show.colorize(:red)}
       У вас осталось ошибок: #{@game.errors_allowed}
 
     END
 
     if @game.won?
-      puts "Поздравляем, вы выиграли!"
+      puts "Поздравляем, вы выиграли!".colorize(:green)
     elsif @game.lost?
-      puts "Вы проиграли, загаданное слово: #{@game.word}"
+      puts "Вы проиграли, загаданное слово: #{@game.word.colorize(:green)}"
     end
   end
 
@@ -45,7 +47,7 @@ class ConsoleInterface
   end
 
   def get_input
-    print "Введите следующую букву: "
+    print "Введите следующую букву: ".colorize(:light_green)
     gets[0].upcase
   end
 end
