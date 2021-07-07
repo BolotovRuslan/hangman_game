@@ -1,24 +1,23 @@
-# Console game Hangman
-###### Writing language - Ruby
-## Game description:
- The computer thinks out a word (from the list in the file) and shows how many letters there are.
- The player enters letters one at a time. If the letter is in the word, the computer shows how many times
- it is found in it and in what places. If there is no letter, the computer counts an error.
- If the word is correctly guessed, the player wins. After each mistake, the gallows is drawn.
- 7 mistakes can be made in total
-## Launching the game:
- To run it ,you need to have Ruby installed on your computer.
+# Консольная игра Виселица
+## Описание игры:
+ Компьютер придумывает слово (из списка в файле) и показывает, сколько в нем букв.
+ Игрок вводит буквы по одной за раз. Если буква есть в слове, компьютер показывает, сколько раз
+ он находится в нем и в каких местах. Если буквы нет, компьютер засчитывает ошибку.
+ Если слово угадано правильно, игрок выигрывает. После каждой ошибки рисуется виселица.
+ всего может быть допущено 7 ошибок.
+## Запуск:
+ Для запуска необходимо чтобы на вашем компьютере ,был установлен Ruby.
 
- Then copy the contents of the repository to your computer and run the following commands:
+ Затем склонируйте себе на компьютер содержимое репозитория и выполните следующие команды:
  ```
  bundle install
  bundle exec ruby main.rb
  ```
-## To add new words to the game:
+## Добавление новых слов в игру:
 ```
 data/words.txt
 ```
-## Example from the game:
+## Пример игры:
 
 ```
 Слово: К О __ О __ __
