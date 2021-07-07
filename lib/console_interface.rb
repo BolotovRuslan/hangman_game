@@ -51,4 +51,3 @@ class ConsoleInterface
     gets[0].upcase
   end
 end
-
